@@ -1,22 +1,16 @@
 $(document).ready(function() {
   $("#blanks form").submit(function(event) {
-    var nameInput = $("input#name").val();
-    var dateInput = $("input#date").val();
-    var starttimeInput = $("input#starttime").val();
-    var endtimeInput = $("input#endtime").val();
+    var weather = $("select#weather").val();
+    var water = $("select#water").val();
+    var vibe = $("select#vibe").val();
+    var family = $("select#family").val();
+    var budget = $("select#budget").val();
 
-    $(".name").text(nameInput);
-    $(".date").text(dateInput);
-    $(".starttime").text(starttimeInput);
-    $(".endtime").text(endtimeInput);
+    
 
-    $("#ok").show();
+    $('#ok').show();
 
-     event.preventDefault();
-   });
-
-   $("button#inverse").click(function() {
-     $("body").toggleClass("black-background");
+      event.preventDefault();
    });
 
 });

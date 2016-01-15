@@ -1,0 +1,26 @@
+body {
+  color: blue;
+  background: url('../img/beach3.jpeg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  display: :block;
+  margin: 8px;
+}
+
+#blanks {
+  font-family: 'Oswald', sans-serif;
+}
+
+#ok {
+  display: none;
+}
+
+label {
+  display: block;
+}
+
+select {
+  display: block;
+  margin: 1em 0 2em 0;
+}
