@@ -6,9 +6,9 @@ $(document).ready(function() {
     var family = $("select#family").val();
     var budget = $("select#budget").val();
 
-    
 
-    $('#ok').show();
+
+    $('#dl').show();
 
       event.preventDefault();
    });
