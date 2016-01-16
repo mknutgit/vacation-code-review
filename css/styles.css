@@ -12,9 +12,38 @@ body {
   font-family: 'Oswald', sans-serif;
 }
 
-#ok {
+#dl {
   display: none;
 }
+
+#dw {
+  display: none;
+}
+
+#kw {
+  display: none;
+}
+
+#ibiza {
+  display: none;
+}
+
+#vancouver {
+  display: none;
+}
+
+#whistler {
+  display: none;
+}
+
+#mthood {
+  display: none;
+}
+
+#amsterdam {
+  display: none;
+}
+
 
 label {
   display: block;

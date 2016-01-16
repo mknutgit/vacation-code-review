@@ -1,5 +1,6 @@
 $(document).ready(function() {
   $("#blanks form").submit(function(event) {
+    var nameInput = $("input#name").val();
     var weather = $("select#weather").val();
     var water = $("select#water").val();
     var vibe = $("select#vibe").val();
@@ -8,9 +9,22 @@ $(document).ready(function() {
 
 
 
-    $('#dl').show();
+      if (weather === "Yes" && water === "No" && vibe === "Yes" && family === "Yes" && budget === "Yes") {
+      $(".name").text(nameInput);
+      $('#dl').show();
+  }
 
-      event.preventDefault();
+      else if (weather === "Yes" && water === "No" && vibe === "Yes" && family === "Yes" && budget === "No") {
+      $(".name").text(nameInput);
+      $('#dw').show();
+}
+
+      else (weather === "No" && water === "No" && vibe === "Yes" && family === "Yes" && budget === "Yes") {
+      $(".name").text(nameInput);
+      $('#vancouver').show();
+}
+
+
+  event.preventDefault();
    });
-
 });
