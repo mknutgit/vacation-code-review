@@ -8,6 +8,11 @@ body {
   margin: 8px;
 }
 
+img.size {
+  width: 620px;
+  height: 300px
+}
+
 #blanks {
   font-family: 'Oswald', sans-serif;
 }
