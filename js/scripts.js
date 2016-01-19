@@ -7,22 +7,127 @@ $(document).ready(function() {
     var family = $("select#family").val();
     var budget = $("select#budget").val();
 
-
-
-      if (weather === "Yes" && water === "No" && vibe === "Yes" && family === "Yes" && budget === "Yes") {
+//-----Disney Land-----//
+    if (weather === "Yes" && water === "No" && vibe === "Yes" && family === "Yes" && budget === "Yes") {
+      $(".name").text(nameInput);
+      $('#dl').show();
+  }
+      else if (weather === "Yes" && water === "No" && vibe === "Yes" && family === "No" && budget === "Yes") {
+      $(".name").text(nameInput);
+      $('#dl').show();
+  }
+    else if (weather === "Yes" && water === "No" && vibe === "No" && family === "Yes" && budget === "Yes") {
+      $(".name").text(nameInput);
+      $('#dl').show();
+  }
+    else if (weather === "Yes" && water === "No" && vibe === "No" && family === "No" && budget === "Yes") {
       $(".name").text(nameInput);
       $('#dl').show();
   }
 
-      else if (weather === "Yes" && water === "No" && vibe === "Yes" && family === "Yes" && budget === "No") {
+  //-----Disney World-----//
+    else if (weather === "Yes" && water === "No" && vibe === "Yes" && family === "Yes" && budget === "No") {
       $(".name").text(nameInput);
       $('#dw').show();
-}
-
-      else (weather === "No" && water === "No" && vibe === "Yes" && family === "Yes" && budget === "Yes") {
+    }
+    else if (weather === "Yes" && water === "No" && vibe === "No" && family === "No" && budget === "No") {
       $(".name").text(nameInput);
-      $('#vancouver').show();
-}
+      $('#dw').show();
+    }
+    else if (weather === "Yes" && water === "No" && vibe === "No" && family === "Yes" && budget === "No") {
+      $(".name").text(nameInput);
+      $('#dw').show();
+    }
+    else if (weather === "Yes" && water === "No" && vibe === "Yes" && family === "No" && budget === "No") {
+      $(".name").text(nameInput);
+      $('#dw').show();
+    }
+
+    //-----Key West-----//
+    else if (weather === "Yes" && water === "Yes" && vibe === "No" && family === "No" && budget === "Yes") {
+      $(".name").text(nameInput);
+      $('#kw').show();
+    }
+    else if (weather === "Yes" && water === "Yes" && vibe === "Yes" && family === "No" && budget === "Yes") {
+      $(".name").text(nameInput);
+      $('#kw').show();
+    }
+    else if (weather === "Yes" && water === "Yes" && vibe === "Yes" && family === "Yes" && budget === "Yes") {
+      $(".name").text(nameInput);
+      $('#kw').show();
+    }
+    else if (weather === "Yes" && water === "Yes" && vibe === "No" && family === "Yes" && budget === "Yes") {
+      $(".name").text(nameInput);
+      $('#kw').show();
+    }
+    //-----Key West-----//
+    else if (weather === "Yes" && water === "Yes" && vibe === "No" && family === "No" && budget === "Yes") {
+      $(".name").text(nameInput);
+      $('#kw').show();
+    }
+    else if (weather === "Yes" && water === "Yes" && vibe === "Yes" && family === "No" && budget === "Yes") {
+      $(".name").text(nameInput);
+      $('#kw').show();
+    }
+    else if (weather === "Yes" && water === "Yes" && vibe === "Yes" && family === "Yes" && budget === "Yes") {
+      $(".name").text(nameInput);
+      $('#kw').show();
+    }
+    else if (weather === "Yes" && water === "Yes" && vibe === "No" && family === "Yes" && budget === "Yes") {
+      $(".name").text(nameInput);
+      $('#kw').show();
+    }
+    //-----Key West-----//
+    else if (weather === "Yes" && water === "Yes" && vibe === "No" && family === "No" && budget === "Yes") {
+      $(".name").text(nameInput);
+      $('#kw').show();
+    }
+    else if (weather === "Yes" && water === "Yes" && vibe === "Yes" && family === "No" && budget === "Yes") {
+      $(".name").text(nameInput);
+      $('#kw').show();
+    }
+    else if (weather === "Yes" && water === "Yes" && vibe === "Yes" && family === "Yes" && budget === "Yes") {
+      $(".name").text(nameInput);
+      $('#kw').show();
+    }
+    else if (weather === "Yes" && water === "Yes" && vibe === "No" && family === "Yes" && budget === "Yes") {
+      $(".name").text(nameInput);
+      $('#kw').show();
+    }
+    //-----Key West-----//
+    else if (weather === "Yes" && water === "Yes" && vibe === "No" && family === "No" && budget === "Yes") {
+      $(".name").text(nameInput);
+      $('#kw').show();
+    }
+    else if (weather === "Yes" && water === "Yes" && vibe === "Yes" && family === "No" && budget === "Yes") {
+      $(".name").text(nameInput);
+      $('#kw').show();
+    }
+    else if (weather === "Yes" && water === "Yes" && vibe === "Yes" && family === "Yes" && budget === "Yes") {
+      $(".name").text(nameInput);
+      $('#kw').show();
+    }
+    else if (weather === "Yes" && water === "Yes" && vibe === "No" && family === "Yes" && budget === "Yes") {
+      $(".name").text(nameInput);
+      $('#kw').show();
+    }
+    //-----Key West-----//
+    else if (weather === "Yes" && water === "Yes" && vibe === "No" && family === "No" && budget === "Yes") {
+      $(".name").text(nameInput);
+      $('#kw').show();
+    }
+    else if (weather === "Yes" && water === "Yes" && vibe === "Yes" && family === "No" && budget === "Yes") {
+      $(".name").text(nameInput);
+      $('#kw').show();
+    }
+    else if (weather === "Yes" && water === "Yes" && vibe === "Yes" && family === "Yes" && budget === "Yes") {
+      $(".name").text(nameInput);
+      $('#kw').show();
+    }
+    else if (weather === "Yes" && water === "Yes" && vibe === "No" && family === "Yes" && budget === "Yes") {
+      $(".name").text(nameInput);
+      $('#kw').show();
+    }
 
 
   event.preventDefault();
